@@ -2,6 +2,7 @@ package edu.cnm.deepdive.codebreaker.model.entity;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
+import androidx.room.Dao;
 import androidx.room.Entity;
 import androidx.room.ForeignKey;
 import androidx.room.Index;
@@ -22,6 +23,7 @@ import java.util.UUID;
         )
     }
 )
+@Dao
 public class Guess {
 
   @PrimaryKey(autoGenerate = true)
