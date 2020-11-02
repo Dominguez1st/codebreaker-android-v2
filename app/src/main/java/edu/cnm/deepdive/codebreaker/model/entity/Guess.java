@@ -23,7 +23,6 @@ import java.util.UUID;
         )
     }
 )
-@Dao
 public class Guess {
 
   @PrimaryKey(autoGenerate = true)
