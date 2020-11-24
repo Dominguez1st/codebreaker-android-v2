@@ -18,7 +18,7 @@
 
   <string name="hello_blank_fragment">Hello blank fragment</string>
   <string name="login_failure_message">Unable to sign in with the provided credentials</string>
-  <string name="sign_out">Sign Out</string>
+  <string name="sign_out">Sign out</string>
   <string name="code_length">Code Length</string>
   <string name="average_of_guesses">Average # of Guesses</string>
 
@@ -37,7 +37,9 @@
   <string name="menu_slideshow">Slideshow</string>
   <string name="title_summary">Summary</string>
   <string name="title_current_game">Current game</string>
-  <string name="title_matches">Matches</string>
+  <string name="title_current_matches">Current matches</string>
+  <string name="title_available_matches">Available matches</string>
+  <string name="title_closed_matches">Closed matches</string>
   <string-array name="color_labels">
     <item>Red</item>
     <item>Orange</item>
@@ -47,4 +49,5 @@
     <item>Indigo</item>
     <item>Violet</item>
   </string-array>
+
 </resources>
