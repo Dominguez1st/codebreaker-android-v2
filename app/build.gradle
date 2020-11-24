@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: "androidx.navigation.safeargs"
 
 static def getProperty (filename, property) {
     Properties properties = new Properties()
